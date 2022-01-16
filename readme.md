@@ -2,4 +2,4 @@
 
 > Tony Crofton
 
-A repo to contain my adventures in learning Javascript (a collection of random JS). 
+A repo to contain my adventures in learning Javascript AKA a collection of random JS. 
