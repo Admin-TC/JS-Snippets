@@ -8,8 +8,10 @@ function lifeInWeeks(age){
     weeksLeft = 52 * yearsLeft;
     monthsLeft = yearsLeft * 12;
 
-alert("Assuming you make it to 90 (hopefully!), you have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left");
+alert("Assuming you make it to 90 (hopefully!), you have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left on planet earth.");
 
 }
 
 lifeInWeeks(yourAge);
+
+
