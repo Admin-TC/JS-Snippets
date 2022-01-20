@@ -1,12 +1,14 @@
 var weight = prompt("What is your weight in kilograms?");
 var heigt = prompt("What is your height in meters?");
+var bmi = 0;
 
-function bmiCalculator (weight,height){
+function bmiCalculator(weight,height){
         
-    var bmi = weight / Math.pow(height, 2);
+    bmi = weight / Math.pow(height, 2);
     return Math.round(bmi);
     }
 
-bmiCalculator (bmi)
+bmiCalculator(weight,height)
 
-alert("Your BMI is " + bmi + ".")
+alert("Your BMI is " + bmi + ".");
+
