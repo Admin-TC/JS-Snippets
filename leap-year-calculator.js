@@ -41,6 +41,10 @@ function checkLeapYear ()
     {
         isLeapyear = false;
     }
+    else {
+        return isLeapyear = true;
+    }
+    
     if (isDivisible400 == true)
     {
         isLeapyear = true;
