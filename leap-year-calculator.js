@@ -28,20 +28,31 @@ function checkLeapYear ()
     }
 
 
-    
 
-    if (isDivisible4 == true && isDivisible100 == false)
+    if (isDivisible4 == true)
     {
-        return isLeapyear = true;
+        isLeapyear = true;
     }
-    else if (isDivisible100 == false && isDivisible400 == true)
-    {
-        return isLeapyear = true;
-    }
-    else
-    {
+    else {
         return isLeapyear = false;
     }
 
+    if (isDivisible100 == true)
+    {
+        isLeapyear = false;
+    }
+    if (isDivisible400 == true)
+    {
+        isLeapyear = true;
+    }
+
+    return isLeapyear;
 }
 
+if (isLeapyear == true)
+    {
+        alert("The year " + year + " is a leap year!")
+    }
+    else {
+        alert("The year " + year + " is NOT a leap year (sad face).")
+    }
