@@ -14,36 +14,29 @@ and “FizzBuzz” if an integer is divisible by both 3 and 5.
 var output = [];
 var number = 1;
 
-function FizzBuzz()
-{
-        
-        if (number%3 == 0 && number%5 == 0)
-        {
-            output.push("FizzBuzz");
-            number++;
-            return output;
-        }
-        
-        if (number%3 == 0)
-        {
-            output.push("Fizz");
-            number++;
-            return output;
-        }
+function FizzBuzz() {
 
-        if (number%5 == 0)
-        {
-            output.push("Buzz");
-            number++;
-            return output;
-        }
+    if (number % 3 == 0 && number % 5 == 0) {
+        output.push("FizzBuzz");
+        number++;
+        return output;
+    }
 
-        else
-        {
-            output.push(number);
-            number++;
-            return output;
-        }   
+    if (number % 3 == 0) {
+        output.push("Fizz");
+        number++;
+        return output;
+    }
+
+    if (number % 5 == 0) {
+        output.push("Buzz");
+        number++;
+        return output;
+    } else {
+        output.push(number);
+        number++;
+        return output;
+    }
 }
 
- console.log(output)
+console.log(output)
