@@ -1,9 +1,9 @@
 var guests = ["Tony", "Dave" , "Rich", "Mary", "Donna", "Sarah"]
-var name = prompt("What is your name human?");
+var guestName = prompt("What is your name human?");
 
-if (guests.includes(name))
+if (guests.includes(guestName))
 {
-    alert("Congratulations, " + name + " you are on the list!");
+    alert("Congratulations, " + guestName + " you are on the list!");
 }
 else
 {
